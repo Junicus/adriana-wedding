@@ -10,7 +10,7 @@ function App() {
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img
-            src="/adriana_wedding/vite.svg"
+            src="/adriana-wedding/vite.svg"
             className="logo"
             alt="Vite logo"
           />
