@@ -1,6 +1,7 @@
 import { weddingInfo } from "../constants";
 import { styles } from "../styles";
-export function EventSection() {
+
+export function WeddingInfoSection() {
   return (
     <section className={`${styles.padding} flex flex-col items-center`}>
       <p className="text-2xl sm:text-5xl">
