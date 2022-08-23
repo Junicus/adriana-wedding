@@ -4,7 +4,7 @@ const weddingDate = "20230604";
 
 export const weddingInfo = {
   date: moment(weddingDate),
-  location: "Hacienda, Rio Grande",
+  location: "Hacienda Siesta Alegre, Rio Grande",
 };
 
 export const schedule = {

@@ -3,12 +3,12 @@ import { styles } from "../styles";
 
 export function SchedulePage() {
   return (
-    <section className={`${styles.paddingY}`}>
+    <section className={`${styles.paddingY} flex flex-col`}>
       {schedule.events.map((event) => {
         return (
           <div
             key={event.display}
-            className={`${styles.paddingY} flex justify-around`}
+            className={`${styles.paddingY} flex flex-col sm:flex-row justify-around`}
           >
             <div
               className={`${styles.paddingY} flex flex-col items-center border-r border-gray-400 flex-1 gap-5`}
